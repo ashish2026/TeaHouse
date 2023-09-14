@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Tea House</title>
+          <link rel="shortcut icon" href="./images/tea-3.png" type="image/x-icon">
+          <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.4/dist/full.css" rel="stylesheet" type="text/css" />
+          <script src="https://cdn.tailwindcss.com"></script>
+          <script src="https://kit.fontawesome.com/69279c7bf7.js" crossorigin="anonymous"></script>
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+                    rel="stylesheet">
+          <!-- TailWind customization  -->
+          <script>
+                    tailwind.config = {
+                              theme: {
+                                        extend: {
+                                                  colors: {
+                                                            clifford: '#da373d',
+                                                  }
+                                        }
+                              }
+                    }
+          </script>
+          <style>
+                    .font-manrope {
+
+                              font-family: 'Manrope', sans-serif;
+                    }
+          </style>
+</head>
+
+<body class="font-manrope">
+          <header class="">
+                    <!-- navbar -->
+                    <div class="navbar bg-base-100">
+                              <div class="navbar-start">
+                                        <div class="dropdown">
+                                                  <label tabindex="0" class="btn btn-ghost lg:hidden">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                                                      fill="none" viewBox="0 0 24 24"
+                                                                      stroke="currentColor">
+                                                                      <path stroke-linecap="round"
+                                                                                stroke-linejoin="round" stroke-width="2"
+                                                                                d="M4 6h16M4 12h8m-8 6h16" />
+                                                            </svg>
+                                                  </label>
+                                                  <ul tabindex="0"
+                                                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                                                            <li><a>Item 1</a></li>
+                                                            <li>
+                                                                      <a>Parent</a>
+                                                                      <ul class="p-2">
+                                                                                <li><a>Submenu 1</a></li>
+                                                                                <li><a>Submenu 2</a></li>
+                                                                      </ul>
+                                                            </li>
+                                                            <li><a>Item 3</a></li>
+                                                  </ul>
+                                        </div>
+                                        <a class="btn btn-ghost normal-case text-xl">Tea House</a>
+                              </div>
+                              <div class="navbar-center hidden lg:flex">
+                                        <ul class="menu menu-horizontal px-1">
+                                                  <li><a>Item 1</a></li>
+                                                  <li tabindex="0">
+                                                            <details>
+                                                                      <summary>Parent</summary>
+                                                                      <ul class="p-2">
+                                                                                <li><a>Submenu 1</a></li>
+                                                                                <li><a>Submenu 2</a></li>
+                                                                      </ul>
+                                                            </details>
+                                                  </li>
+                                                  <li><a>Item 3</a></li>
+                                        </ul>
+                              </div>
+                              <div class="navbar-end">
+                                        <a class="btn">Profile</a>
+                              </div>
+                    </div>
+                    <!-- navbar -->
+                    <!-- Hero Section -->
+                    <div class="hero  min-h-[calc(100vh-68px)] max-w-screen-xl mx-auto px-8 md:px-24 py-5 my-10">
+                              <div class="hero-content flex-col lg:flex-row mx-auto">
+                                        <div>
+                                                  <h1 class="text-3xl font-medium lg:text-7xl lg:font-extrabold">It's good <br>
+                                                            tea time at The <br> Tea House</h1>
+                                                  <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum
+                                                            Satisfaction To Your Taste Buds.</p>
+                                                  <button class="btn btn-primary">Explore More</button>
+                                        </div>
+                                        <div>
+                                                  <img src="./images/banner.png"
+                                                            class="max-w-sm" />
+                                                            <!-- Rating badge  -->
+                                                  <div class="-mt-20 flex items-center rounded-lg p-5 w-60 h-15 gap-4 bg-white drop-shadow-2xl">
+                                                            <i class="fa-solid fa-star text-3xl text-amber-300 "></i>
+                                                            <div>
+                                                                      <h3 class="text-3xl">5.00</h3>
+                                                                      <p>Trust Pilot Ratings</p>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </div>
+                    <!-- Hero Section -->
+          </header>
+          <main>
+
+          </main>
+          <footer>
+
+          </footer>
+</body>
+
+</html>
