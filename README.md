@@ -1,12 +1,4 @@
-<h1> This is one of my Project which is BikerZone</h1>
-<h3>To see my project click the given link in bellow...!</h3>
-<h4>link : liveLink: https://ashish2026.github.io/TeaHouse/</h4>
+# My projects livelink is given here.
 
 
-
-
- <br>
- <h2>For breakPoint and Responsive [Notes] </h2>
-<h2>Use this classes , given in bellow</h2>
-
-<h3> container max-w-screen-xl mx-auto </h3>
+- [LiveLink](https://ashish2026.github.io/TeaHouse) or [Click here](https://ashish2026.github.io/TeaHouse)
